@@ -27,4 +27,9 @@ Victor - tu trebuie sa faci si punctul 2.4 + apelare in clasa creata de Cristi
 
 
      */
+
+    public void trimitePachet() {
+        System.out.println("Pachet trimis cu setările standard.");
+    }
+
 }
