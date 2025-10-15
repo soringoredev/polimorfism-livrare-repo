@@ -32,4 +32,19 @@ Victor - tu trebuie sa faci si punctul 2.4 + apelare in clasa creata de Cristi
         System.out.println("Pachet trimis cu setările standard.");
     }
 
+    public void trimitePachet(String adresa) {
+        System.out.println("Pachet trimis la adresa: " + adresa);
+    }
+
+    public void trimitePachet(String adresa, double greutate) {
+        System.out.println("Pachet trimis la adresa: " + adresa +
+                " | Greutate: " + greutate + " kg");
+    }
+
+    public void trimitePachet(String adresa, double greutate, String prioritate) {
+        System.out.println("Pachet trimis la adresa: " + adresa +
+                " | Greutate: " + greutate + " kg" +
+                " | Prioritate: " + prioritate);
+    }
 }
+
